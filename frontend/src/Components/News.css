@@ -1,7 +1,22 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+@font-face {
+    font-family: "Uzi";
+    src: url("https://raw.githubusercontent.com/vickkie/uzitrake/main/fonts/Uzi-stylish.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Uzicute";
+    src: url("https://raw.githubusercontent.com/vickkie/uzitrake/main/fonts/Uzicute.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
 .news-container{
     width: 100%;
     height: auto;
-    background-color: rgb(247,235,215);
+    background: linear-gradient(18deg, rgba(0, 0, 0, 1) 35%, rgb(19, 32, 174) 100%);
     display: flex;
     flex-direction: column;
 }
@@ -13,8 +28,9 @@
 }
 
 .news-title{
+    font-family: "Uzicute";
     position: relative;
-    color: #0E2431;
+    color: #eff9ff;
     margin-top: 10px;
     margin-bottom: 50px;
     text-align: center;
@@ -23,25 +39,31 @@
 }
 
 .news-subtitle{
+    font-family: "Uzicute";
     font-size: 25px;
     text-align: center;
+    color: #eff9ff;
 }
 
 .news-competition-event{
-    border:2px solid brown;
+    border:2px solid linear-gradient(45deg, #4a1689, #edf2f6, #e2ede8);
+    color: #eff9ff;
     border-radius: 5px;
     text-align: left;
     width: 100%;
     padding: 10px;
     margin-bottom: 15px!important;
+    font-family: 'Anonymous Pro';
 }
 
 .news-quiz-event{
-    border:2px solid brown;
+    border:2px solid rgb(227, 88, 13);
     border-radius: 5px;
     text-align: left;
     width: 100%;
     padding: 10px;
+    color: #eff9ff;
+    font-family: 'Anonymous Pro';
     margin-bottom: 15px!important;
 }
 

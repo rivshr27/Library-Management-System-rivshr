@@ -1,52 +1,70 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 
-.about-box{
-    background-color: rgb(16,25,13);
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+@font-face {
+    font-family: "Uzi";
+    src: url("https://raw.githubusercontent.com/vickkie/uzitrake/main/fonts/Uzi-stylish.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Uzicute";
+    src: url("https://raw.githubusercontent.com/vickkie/uzitrake/main/fonts/Uzicute.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+.about-box {
+    background: linear-gradient(18deg, rgba(0, 0, 0, 1) 35%, rgb(4, 13, 113) 100%);
+    font-family: "Uzi";
+    margin-top: 8px;
 }
 
 /* Mobile View */
-@media screen and (max-width: 768px){
-    .about-data{
+@media screen and (max-width: 768px) {
+    .about-data {
         display: grid;
     }   
-    .about-data p{
+    .about-data p {
         margin-left: 16px;
         margin-right: 16px;
         font-size: 13px;
-        font-family:'Poppins', sans-serif ;
         text-align: justify;
         padding: 15px;
-        color: rgb(220,225,219);
+        color: rgb(220, 225, 219);
+        font-family: "Uzi";
     }
 }
 
 /* Desktop View */
-.about-title{
+.about-title {
     position: relative;
-    color: rgb(238,129,30);
+    color: rgb(238, 129, 30);
     text-align: center;
     font-size: 32px;
     padding: 25px;
+    font-family: "Uzi";
 }
 
-.about-img img{
+.about-img img {
     width: 100%;
     max-width: 700px;
     border-radius: 25px;
     padding: 15px;
 }
 
-@media screen and (min-width:768px) {
-    .about-data p{
+@media screen and (min-width: 768px) {
+    .about-data p {
         margin-left: 50px;
         margin-right: 50px;
         font-size: 15px;
-        font-family:'Poppins', sans-serif ;
         text-align: justify;
-        color: rgb(220,225,219);
+        color: rgb(220, 225, 219);
         padding: 15px;
+        font-family: 'Anonymous Pro';
+
     }
-    .about-data{
+    .about-data {
         display: grid;
         grid-template-columns: 50% 50%;
     } 
