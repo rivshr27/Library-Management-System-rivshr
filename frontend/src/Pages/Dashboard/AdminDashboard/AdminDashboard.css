@@ -2,12 +2,12 @@
   display: grid;
   place-items: center;
   height: 100vh;
-  background-color: wheat;
+  background: linear-gradient(18deg, rgb(22, 22, 22) 35%, rgb(3, 8, 65) 100%);
   position: relative;
 }
 
 .dashboard-card {
-  font-family: sans-serif;
+  font-family: "Alegreya", serif;
   width: 80vw;
   height: 90vh;
   margin: 60px auto;

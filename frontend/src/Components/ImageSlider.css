@@ -14,11 +14,36 @@
   }
   
 .slider{
+    font-family: "Alegreya", serif;
+    font-weight: 800;
     width: 100%;
     height: auto;
-    background: linear-gradient(18deg, rgba(0, 0, 0, 1) 35%, rgb(19, 32, 174) 100%);
+    background: linear-gradient(18deg, rgb(32, 32, 32) 35%, rgb(19, 32, 174) 100%);
 }
-
+.slider .p{
+    font-family: "Alegreya", serif;
+    font-weight: 800;
+}
+.slider .carousel-caption p {
+    /* Your CSS styles here */
+    font-family: "Alegreya", serif;
+    font-weight: 800;
+    font-weight: bold;
+    background: linear-gradient(
+        135deg,
+        rgba(0, 0, 0, 0.7),
+        rgba(173, 20, 20, 0)
+    );
+    background-blend-mode: overlay; 
+    mix-blend-mode: difference;
+    display: flex;
+    flex-direction: column;
+    color: #fff; /* White text color */
+    font-size: 15px; /* Font size */
+    font-weight: bold; /* Bold text */
+   /* Semi-transparent background */
+   
+}
 img{
     width: auto;
     height: 500px;

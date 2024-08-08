@@ -35,11 +35,12 @@
 
 .popularbooks-title{
     position: relative;
-    color: #0E2431;
+    color: #fcf9f9;
     margin-top: 20px;
     margin-bottom: 50px;
     text-align: center;
     font-size: 32px;
+    font-family: "Alegreya", serif;
 }
 
 .popular-book:hover{

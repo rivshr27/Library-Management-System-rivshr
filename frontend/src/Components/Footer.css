@@ -1,37 +1,24 @@
-@font-face {
-  font-family: "Uzi";
-  src: url("https://raw.githubusercontent.com/vickkie/uzitrake/main/fonts/Uzi-stylish.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
 
-@font-face {
-  font-family: "Uzicute";
-  src: url("https://raw.githubusercontent.com/vickkie/uzitrake/main/fonts/Uzicute.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
 .footer {
   display: flex;
   flex-direction: column;
 
   color: wheat;
-  font-family: 'Anonymous Pro';
+   font-family: "Alegreya", serif;
   background: linear-gradient(18deg, rgba(0, 0, 0, 1) 35%, rgb(22, 35, 175) 100%);
 }
 
 .footer-data {
   display: flex;
   justify-content: space-around;
-  font-family: 'Anonymous Pro';
+   font-family: "Alegreya", serif;
 }
 
 .contact-details {
   text-align: left;
   letter-spacing: 1.5px;
   margin: 15px;
-  font-family: 'Anonymous Pro';
+   font-family: "Alegreya", serif;
   
 }
 
@@ -42,19 +29,19 @@
   text-decoration: none;
   letter-spacing: 1.5px;
   margin: 15px;
-  font-family: 'Anonymous Pro';
+   font-family: "Alegreya", serif;
 }
 
 .usefull-links a {
   color: wheat;
-  font-family: 'Anonymous Pro';
+   font-family: "Alegreya", serif;
 }
 
 .librarian-details {
   text-align: left;
   letter-spacing: 1.5px;
   margin: 15px;
-  font-family: 'Anonymous Pro';
+   font-family: "Alegreya", serif;
 }
 
 .contact-details h1,
@@ -74,7 +61,7 @@
   align-items: center;
   justify-content: center;
   margin: 20px 0px;
-  font-family: 'Anonymous Pro';
+   font-family: "Alegreya", serif;
 }
 
 .social-icon {
@@ -87,12 +74,12 @@
   letter-spacing: 1.15px;
   text-align: center;
   padding: 20px 10px;
-  font-family: 'Anonymous Pro';
+   font-family: "Alegreya", serif;
 }
 
 .copyright-details span {
   font-size: 15px;
-  font-family: 'Anonymous Pro';
+   font-family: "Alegreya", serif;
 }
 
 @media screen and (max-width: 768px) {

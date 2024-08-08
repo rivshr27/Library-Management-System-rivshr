@@ -21,19 +21,22 @@
 }
 
 .reservedbooks-table {
-    font-family: arial, sans-serif;
+    font-family: "Alegreya", serif;
+    font-weight: bold;
     border-collapse: collapse;
     width: 100%;
     max-width: 1024px;
     margin: 0px auto;
     padding: 15px!important;
+    color: rgb(1, 11, 20);
 }
   
 .reservedbooks-table td,.reservedbooks-table th {
-    border: 2px solid #696969;
+    border: 2px solid #5a3b3b;
     text-align: left;
     padding: 8px;
-    background-color: #dddddd;
+    background: linear-gradient(18deg, rgb(255, 255, 255) 35%, rgb(251, 251, 251) 100%);
+    font-family: "Alegreya", serif;
 }
 
 .reservedbooks-title{
@@ -41,4 +44,6 @@
     color: rgb(238,129,30);
     text-align: center;
     font-size: 32px;
+    font-family: "Alegreya", serif;
+    
 }

@@ -1,36 +1,27 @@
 /*Desktop View*/
-@font-face {
-    font-family: "Uzi";
-    src: url("https://raw.githubusercontent.com/vickkie/uzitrake/main/fonts/Uzi-stylish.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: "Uzicute";
-    src: url("https://raw.githubusercontent.com/vickkie/uzitrake/main/fonts/Uzicute.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-  }
+
 .header{
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 0px 40px;
     height: 70px;
-    width: 100%;
+     width: 100%; 
     position: fixed;
     z-index: 100;
-    background: linear-gradient(18deg, rgba(0, 0, 0, 1) 35%, rgba(54, 68, 233, 1) 100%);
+    background: linear-gradient(18deg, rgba(0, 0, 0, 1) 35%, rgb(6, 12, 81) 100%);
     box-shadow: 0 1px 4px rgba(146,161,176,.15);
     top: 0%;
-    font-family: "Uzicute";
+    font-family: "Alegreya", serif;
+    font-optical-sizing: auto;
 }
 
 .logo-nav a{
     font-size: 20px;
-    color: rgb(233,83,75);
+    color: rgb(241, 239, 239);
     font-weight: 800;
+    font-family: "Alegreya", serif;
 }
 
 .logo-nav a:hover{
@@ -39,29 +30,36 @@
 }
 
 .search-input{
-    width: 100%;
-    margin-left: 15px;
+    width: 60%;
+    margin-left: -10px;
     max-width: 1800px;
     height: 35px;
     outline: none;
     padding: 10px 18px;
     font-size: 18px;
     border-radius: 10px;
-    border: 1px solid white;
+    border: 1px solid rgb(89, 1, 1);
+    font-family: "Alegreya", serif;
+   
+
     
 }
 
 .nav-options{
-    padding-left: 25px;
+    padding-left: 20px;
     display: flex;
+    justify-content: space-evenly;
     list-style-type: none;
     margin-bottom: 15px!important;
+    white-space: nowrap;
+    margin-left: 200px;
 }
 
 .nav-right{
     display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
 }
   
 .option{
@@ -70,19 +68,19 @@
     align-items: center;
     padding: 0px 40px;
     margin-top: 18px;
-    color: rgb(243, 6, 6);
+    color: rgb(241, 235, 235);
 }
 
 .option a{
-    color: rgb(233,83,75);
-    display: flex;
+    color: rgb(253, 247, 246);
+    /* display: flex; */
     align-items: center;
     font-weight: 800;
     font-size: 18px;
 }
 
 .option a:hover{
-    color: wheat;
+    color: rgb(242, 10, 10);
     transition: all ease 0.5s;
     /* border-bottom: 0.5px solid #fff; */
     transform: translateY(-5px);

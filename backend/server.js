@@ -24,10 +24,26 @@ app.use("/api/books", bookRoutes);
 app.use("/api/transactions", transactionRoutes);
 app.use("/api/categories", categoryRoutes);
 
-/* MongoDB connection */
-mongoose.connect(
-  process.env.MONGO_URL
-);
+/* MongoDB Connection */
+mongoose.connect(process.env.MONGO_URL, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true
+});
+
+// Connection successful event
+mongoose.connection.on("connected", () => {
+  console.log("MongoDB connection established successfully");
+});
+
+// Connection error event
+mongoose.connection.on("error", (err) => {
+  console.error(`MongoDB connection error: ${err}`);
+});
+
+// Connection disconnected event
+mongoose.connection.on("disconnected", () => {
+  console.log("MongoDB connection disconnected");
+});
 
 app.get("/", (req, res) => {
   res.status(200).send("Welcome to LibraryApp");
@@ -35,5 +51,5 @@ app.get("/", (req, res) => {
 
 /* Port Listening In */
 app.listen(port, () => {
-  console.log(`Server is running in PORT ${port}`);
+  console.log(`Server is running on PORT ${port}`);
 });

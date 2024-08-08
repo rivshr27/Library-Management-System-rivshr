@@ -7,7 +7,7 @@
   }
   
   @font-face {
-    font-family: "Uzicute";
+      font-family: "Alegreya", serif;
     src: url("https://raw.githubusercontent.com/vickkie/uzitrake/main/fonts/Uzicute.woff") format("woff");
     font-weight: normal;
     font-style: normal;
@@ -28,9 +28,9 @@
 }
 
 .news-title{
-    font-family: "Uzicute";
+    font-family: "Alegreya", serif;
     position: relative;
-    color: #eff9ff;
+    color: rgb(234, 231, 228);
     margin-top: 10px;
     margin-bottom: 50px;
     text-align: center;
@@ -39,7 +39,7 @@
 }
 
 .news-subtitle{
-    font-family: "Uzicute";
+      font-family: "Alegreya", serif;
     font-size: 25px;
     text-align: center;
     color: #eff9ff;
@@ -53,17 +53,18 @@
     width: 100%;
     padding: 10px;
     margin-bottom: 15px!important;
-    font-family: 'Anonymous Pro';
+    font-family: "Alegreya", serif;
+    border:2px solid rgb(181, 175, 173);
 }
 
 .news-quiz-event{
-    border:2px solid rgb(227, 88, 13);
+    border:2px solid rgb(181, 175, 173);
     border-radius: 5px;
     text-align: left;
     width: 100%;
     padding: 10px;
     color: #eff9ff;
-    font-family: 'Anonymous Pro';
+    font-family: "Alegreya", serif;
     margin-bottom: 15px!important;
 }
 

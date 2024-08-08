@@ -1,13 +1,14 @@
 .books-page{
     height: 100vh;
     width: 100vw;
-    background-color: wheat;
+    background: linear-gradient(18deg, rgba(0, 0, 0, 1) 35%, rgb(4, 13, 113) 100%);
 }
 
 .books{
     margin: 60px auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+   
+    grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
     gap: 20px;
     padding: 15px;
     max-width: 1024px;
@@ -21,17 +22,19 @@
     width: 250px;
     align-items: center;
     padding: 25px;
-    margin: 10px;
+    margin: 20px;
+    margin-left: 150px;
     -webkit-box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
     box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
-    border-radius: 15px;
+    border-radius: 25px;
     position: relative;
-    background-color: rgb(238, 238, 238);
+    background-color: white;
+  
 }
 
 .book-card img{
     width: 150px;
-    height: auto;
+    height: 200px;
     margin-bottom: 25px!important;
     border-radius: 18px;
 }
@@ -46,12 +49,14 @@
     text-align: center;
     font-weight: 600;
     font-size: 16px;
+    font-family: "Alegreya", serif;
 }
 
 .bookcard-author{
     color: rgb(141, 140, 140);
     font-size: 14px;
     font-weight: 900;
+    font-family: "Alegreya", serif;
 }
 
 .bookcard-category{
@@ -68,6 +73,7 @@
     font-weight: 600;
     margin: 5px;
     border-radius: 5px;
+    font-family: "Alegreya", serif;
 }
 
 .bookcard-emptybox{

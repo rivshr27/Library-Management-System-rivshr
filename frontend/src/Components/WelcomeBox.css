@@ -34,22 +34,25 @@
     font-size: 65px;
     line-height: 80px;
     color: #f1ebe5;
-   background: linear-gradient(45deg, #9945FF, #5497D5, #19FB9B);
+    background: linear-gradient(18deg, rgba(0, 0, 0, 1) 35%, rgb(6, 12, 81) 100%);
     letter-spacing: -4px;
     margin-top: 10px;
-     font-family: "Uzicute";
+    font-family: "Alegreya", serif;
 
 }
 
 .welcome-message{
     font-size: 25px;
     font-weight: 800;
-    padding-bottom: 15px;
-    font-family: "Uzicute";
+ 
+    font-family: "Alegreya", serif;
+    color: rgb(143, 145, 145);
 }
 
 .welcome-submessage{
+    background: linear-gradient(18deg, rgba(0, 0, 0, 1) 35%, rgb(6, 12, 81) 100%);
     font-size: 15px;
     font-weight: 600;
-    font-family: 'Anonymous Pro';
+    font-family: "Alegreya", serif;
+   
 }

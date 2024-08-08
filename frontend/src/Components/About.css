@@ -1,22 +1,9 @@
 
-@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
-@font-face {
-    font-family: "Uzi";
-    src: url("https://raw.githubusercontent.com/vickkie/uzitrake/main/fonts/Uzi-stylish.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: "Uzicute";
-    src: url("https://raw.githubusercontent.com/vickkie/uzitrake/main/fonts/Uzicute.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-  }
-  
+
 .about-box {
     background: linear-gradient(18deg, rgba(0, 0, 0, 1) 35%, rgb(4, 13, 113) 100%);
-    font-family: "Uzi";
+    font-family: "Alegreya", serif;
+  font-optical-sizing: auto;
     margin-top: 8px;
 }
 
@@ -32,7 +19,7 @@
         text-align: justify;
         padding: 15px;
         color: rgb(220, 225, 219);
-        font-family: "Uzi";
+        font-family: "Alegreya", serif;
     }
 }
 
@@ -43,14 +30,29 @@
     text-align: center;
     font-size: 32px;
     padding: 25px;
-    font-family: "Uzi";
+    font-family: "Alegreya", serif;
 }
+.about-text {
+    font-family: "Alegreya", serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #f2f2f2; /* Example text color */
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: justify; /* Justifies the text */
+   /* Light background */
+    border-radius: 5px;
+  }
+  
 
 .about-img img {
     width: 100%;
     max-width: 700px;
-    border-radius: 25px;
-    padding: 15px;
+    border-radius: 30px;
+    padding: 10px;
+    margin-bottom: 30px;
+    margin-left: 20px;
 }
 
 @media screen and (min-width: 768px) {
@@ -61,7 +63,7 @@
         text-align: justify;
         color: rgb(220, 225, 219);
         padding: 15px;
-        font-family: 'Anonymous Pro';
+        font-family: "Alegreya", serif;
 
     }
     .about-data {
