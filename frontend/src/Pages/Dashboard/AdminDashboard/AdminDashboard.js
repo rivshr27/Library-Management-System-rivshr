@@ -46,6 +46,7 @@ function AdminDashboard() {
                     </IconButton>
                 </div>
 
+
                 {/* Sidebar */}
                 <div className={sidebar ? "dashboard-options active" : "dashboard-options"}>
                     <div className='dashboard-logo'>
