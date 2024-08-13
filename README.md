@@ -1,18 +1,34 @@
 ## Library Management System 📚
 
-A comprehensive web application designed to manage all the activities of a library, including member management and book transactions. Built with the powerful MERN stack, this system streamlines library operations and enhances user experience.
+A comprehensive web application designed to manage all the activities of a library, including member management, book transactions, and more. Built on the MERN stack, this system offers a streamlined and user-friendly experience for both administrators and students.
 
-![Library Management System Overview](https://github.com/rivshr27/Library-Management-System-rivshr/blob/main/deploy-images/Screenshot%202024-08-13%20at%206.33.16%E2%80%AFPM.png)
+![Library Management System Home](https://github.com/rivshr27/Library-Management-System-rivshr/blob/main/deploy-images/Screenshot%202024-08-13%20at%206.33.03%E2%80%AFPM.png)
 
 ### Features Of LCMS 🚀
 
-- **Admin and Student Login:** Secure and role-based access for administrators and students.
-- **Interactive Dashboards:** Personalized dashboards for both Admin and Student users, providing a clear overview of library activities.
-- **Member Management:** Easy addition and management of library members, ensuring accurate record-keeping.
-- **Book Management:** Add books to the library with details on available copies, streamlining the cataloging process.
-- **Transaction Tracking:** Monitor the issue and return transactions of books, providing a seamless borrowing experience for members.
-- **Book Reservation:** Allows users to reserve books for specific dates, ensuring availability when needed.
-- **Achievements and Events:** Showcase library achievements and event galleries, celebrating the library's community involvement.
+- **Admin and Student Login:** Secure, role-based access for administrators and students, ensuring proper authentication and authorization.
+- **Interactive Dashboards:** Personalized dashboards that provide a clear overview of all library activities for both Admin and Student users.
+- **Member Management:** Seamless addition and management of library members, allowing for accurate record-keeping and efficient member tracking.
+- **Book Management:** Add books with details on available copies, helping in managing the library's inventory with ease.
+- **Transaction Tracking:** Track the issue and return of books, making the borrowing process transparent and efficient.
+- **Book Reservation:** Users can reserve books for specific dates, ensuring availability and preventing conflicts.
+- **Achievements and Events:** Highlight library achievements and display event galleries, fostering community engagement.
+
+### About the Library System 🏫
+
+This Library Management System is designed to automate and simplify the day-to-day operations of a library. Whether it's managing the inventory of books, tracking transactions, or handling member records, this system ensures everything runs smoothly.
+
+![Library Management System About](https://github.com/rivshr27/Library-Management-System-rivshr/blob/main/deploy-images/Screenshot%202024-08-13%20at%206.33.16%E2%80%AFPM.png)
+
+The system also allows administrators to monitor and manage library activities efficiently, providing them with detailed reports and insights. Students can easily search for and reserve books, view their borrowing history, and stay updated on the latest library events and achievements.
+
+### Contact Information 📞
+
+If you have any questions or need support, feel free to reach out. The contact page provides all the necessary information to get in touch with the library staff.
+
+![Library Management System Contact](https://github.com/rivshr27/Library-Management-System-rivshr/blob/main/deploy-images/Screenshot%202024-08-13%20at%206.33.27%E2%80%AFPM.png)
+
+Whether it's an inquiry about book availability, reservation issues, or general information about the library, the contact page is designed to assist users promptly and efficiently.
 
 ### Technologies 🛠
 
@@ -23,4 +39,4 @@ A comprehensive web application designed to manage all the activities of a libra
 
 ### License 🏆
 
-This repository is licensed under the MIT License. For more information, please refer to the [LICENSE](LICENSE).
+This repository is licensed under the MIT License. For more details, please refer to the [LICENSE](LICENSE).
