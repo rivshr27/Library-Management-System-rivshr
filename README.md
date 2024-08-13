@@ -1,27 +1,42 @@
 ## Library Management System 📚
 
-A web app for managing all the activities of a library like managing members and book transactions, built on MERN Stack
-![1](https://user-images.githubusercontent.com/73348574/205624307-6a1b18fa-5ef7-4de9-b141-9225eca62c6c.png)
+A comprehensive web application designed to manage all the activities of a library, including member management, book transactions, and more. Built on the MERN stack, this system offers a streamlined and user-friendly experience for both administrators and students.
 
-## Features Of LCMS 🚀
+![Library Management System Home](https://github.com/rivshr27/Library-Management-System-rivshr/blob/main/deploy-images/Screenshot%202024-08-13%20at%206.33.03%E2%80%AFPM.png)
 
-- Admin Login and Student Login
-- Admin and Student Dashboard
-- Adding Library Members
-- Adding Books with Available Copies
-- Issue and Return Transaction tracking of a Book by the Member
-- Reserving a book for specific dates
-- Showing the Achievements, Event Gallery
+### Features Of LCMS 🚀
 
-## Technologies 🛠
+- **Admin and Student Login:** Secure, role-based access for administrators and students, ensuring proper authentication and authorization.
+- **Interactive Dashboards:** Personalized dashboards that provide a clear overview of all library activities for both Admin and Student users.
+- **Member Management:** Seamless addition and management of library members, allowing for accurate record-keeping and efficient member tracking.
+- **Book Management:** Add books with details on available copies, helping in managing the library's inventory with ease.
+- **Transaction Tracking:** Track the issue and return of books, making the borrowing process transparent and efficient.
+- **Book Reservation:** Users can reserve books for specific dates, ensuring availability and preventing conflicts.
+- **Achievements and Events:** Highlight library achievements and display event galleries, fostering community engagement.
 
-- ReactJS[Hooks]
-- NodeJs
-- ExpressJs
-- MongoDB
+### About the Library System 🏫
 
+This Library Management System is designed to automate and simplify the day-to-day operations of a library. Whether it's managing the inventory of books, tracking transactions, or handling member records, this system ensures everything runs smoothly.
 
+![Library Management System About](https://github.com/rivshr27/Library-Management-System-rivshr/blob/main/deploy-images/Screenshot%202024-08-13%20at%206.33.16%E2%80%AFPM.png)
 
-## License 🏆
+The system also allows administrators to monitor and manage library activities efficiently, providing them with detailed reports and insights. Students can easily search for and reserve books, view their borrowing history, and stay updated on the latest library events and achievements.
 
-This repository is licensed under MIT License. Find [LICENSE](LICENSE) to know more
+### Contact Information 📞
+
+If you have any questions or need support, feel free to reach out. The contact page provides all the necessary information to get in touch with the library staff.
+
+![Library Management System Contact](https://github.com/rivshr27/Library-Management-System-rivshr/blob/main/deploy-images/Screenshot%202024-08-13%20at%206.33.27%E2%80%AFPM.png)
+
+Whether it's an inquiry about book availability, reservation issues, or general information about the library, the contact page is designed to assist users promptly and efficiently.
+
+### Technologies 🛠
+
+- **ReactJS (Hooks)**
+- **NodeJs**
+- **ExpressJs**
+- **MongoDB**
+
+### License 🏆
+
+This repository is licensed under the MIT License. For more details, please refer to the [LICENSE](LICENSE).
