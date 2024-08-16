@@ -11,10 +11,10 @@ A comprehensive web application designed to manage all the activities of a libra
   
 - **Below Images Show Admin Dashboard and Student DashBoard:**
 - **Admin DashBoard**
-- ![Admin Dashboard](https://github.com/rivshr27/Library-Management-System-rivshr/blob/main/deploy-images/Screenshot%202024-08-16%20at%206.22.51%E2%80%AFPM.png)
+  ![Admin Dashboard](https://github.com/rivshr27/Library-Management-System-rivshr/blob/main/deploy-images/Screenshot%202024-08-16%20at%206.22.51%E2%80%AFPM.png)
 
 - **Student DashBoard**
-- ![Student Dashboard](https://github.com/rivshr27/Library-Management-System-rivshr/blob/main/deploy-images/Screenshot%202024-08-16%20at%206.24.28%E2%80%AFPM.png)
+  ![Student Dashboard](https://github.com/rivshr27/Library-Management-System-rivshr/blob/main/deploy-images/Screenshot%202024-08-16%20at%206.24.28%E2%80%AFPM.png)
 
   
 - **Interactive Dashboards:** Personalized dashboards that provide a clear overview of all library activities for both Admin and Student users.
