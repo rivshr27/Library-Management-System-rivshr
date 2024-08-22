@@ -1,6 +1,6 @@
 import React from 'react'
 import './WelcomeBox.css'
-setTimeout(function() {alert("Welcome to my website!");}, 3000); //Message will display after 3 seconds
+// setTimeout(function() {alert("Welcome to my website!");}, 3000); //Message will display after 3 seconds
 function WelcomeBox() {
     return (
         <div className='welcome-box'>
