@@ -7,8 +7,17 @@ A comprehensive web application designed to manage all the activities of a libra
 ### Features Of LCMS 🚀
 
 - **Admin and Student Login:** Secure, role-based access for administrators and students, ensuring proper authentication and authorization.
+
+  
+- **Below Images Show Admin Dashboard and Student DashBoard:**
+- **Admin DashBoard**
+  ![Admin Dashboard](https://github.com/rivshr27/Library-Management-System-rivshr/blob/main/deploy-images/Screenshot%202024-08-16%20at%206.22.51%E2%80%AFPM.png)
+
+- **Student DashBoard**
+  ![Student Dashboard](https://github.com/rivshr27/Library-Management-System-rivshr/blob/main/deploy-images/Screenshot%202024-08-16%20at%206.24.28%E2%80%AFPM.png)
+
+  
 - **Interactive Dashboards:** Personalized dashboards that provide a clear overview of all library activities for both Admin and Student users.
-- **Member Management:** Seamless addition and management of library members, allowing for accurate record-keeping and efficient member tracking.
 - **Book Management:** Add books with details on available copies, helping in managing the library's inventory with ease.
 - **Transaction Tracking:** Track the issue and return of books, making the borrowing process transparent and efficient.
 - **Book Reservation:** Users can reserve books for specific dates, ensuring availability and preventing conflicts.
